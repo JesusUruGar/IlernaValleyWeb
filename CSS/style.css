@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+    cursor: url("../IMG/cursor_normal2.png"), auto;
+}
+
+body {
+    image-rendering: pixelated;
+    margin: 0;
+    background-image: url("../IMG/mountainsBg.png");
+    background-size: cover;
+    font-family: 'Dejavu Sans Mono';
+}
+
+#GRAN_DIV {
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    img {
+        width: 40vw;
+    }
+    div {
+        img{
+            width: 10vw;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            transition: 0.1s;
+        }
+        img:hover {
+            filter: brightness(50%);
+            transition: 0.1s;
+            cursor: url("../IMG/cursor_pulsar2.png"), auto;
+        }
+        display: flex;
+        justify-content:center;
+    }
+}
+
+#contenedor {
+    position: absolute;
+    margin-top: 15vw;
+    height: 200px;
+    width: 86vw;
+    margin-left: 3vw;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1vw;
+    padding: 4vw;
+}
