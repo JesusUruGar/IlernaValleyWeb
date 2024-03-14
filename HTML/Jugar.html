@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ilerna Valley</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/stylejugar.css">
     <link rel="shortcut icon" href="/IMG/Icono_IVW.png">
     
 </head>
@@ -31,48 +32,82 @@
         </header>
 
         <aside>
-            <a href="">Bienvenido</a>
-            <a href="">Manual</a>
-            <a href="">Bienvenido</a>
+            <div id="dropdown">
+            <a id="dropbtn" href="#Manual">Manual</a>
+                <div id="dropdown-C">
+                    <a href="#Movimiento">Movimiento</a>
+                    <a href="#Interacción">Interacción</a>
+                    <a href="#Interfaz">Interfaz de Usuario</a>
+                </div>
+            </div>    
+            <a href="#Contenido">Contenido Descargable</a>
             <a href="">Bienvenido</a>
         </aside>
 
         <div id="contenedor">
             <section id="primero">
-                <h1>Manual de Uso</h1>
+                <h1 id="Manual">Manual de Uso</h1>
 
-                <h3>Movimiento</h3>
+                <h3 id="Movimiento">Movimiento</h3>
                 <p>
-
+                    - Para el movimiento tenemos 4 teclas principales, que son las de dirección (W A S D), que cada una corresponden a una dirección:
+                    <br>· W (Arriba)
+                    <br>· A (Izquierda)
+                    <br>· S (Abajo)
+                    <br>· D (Derecha)
+                
                 </p>
 
-                <h3>Interacción</h3>
+                <h3 id="Interacción">Interacción</h3>
                 <h5>Objetos</h5>
                 <p>
-
+                    - Para interactuar con los objetos que están tirados por el suelo es muy sencillo, solo tienes que ir pasando por encima de ellos y se irán añadiendo a tu inventario.
                 </p>
+                <img src="/IMG/Recoger1.png">
+                <img src="/IMG/Recoger2.png">
+
+
                 <h5>NPC</h5>
                 <p>
-
+                    - Con los NPC (o Non Playable Characters o Personajes No Jugables) es un poco más complicado, ya que para interactuar con ellos tienes que pegarte a ellos, presionar la 
+                    tecla de movimiento en la dirección en la que esté en NPC y presionar F, para poder leer los diálogos que tengan que decirte.
                 </p>
-                
+                <img src="/IMG/NPCs.png">
+                <img src="/IMG/Dialogo.png">
 
-                <h3>Interfaz de Usuario</h3>
+                <h3 id="Interfaz">Interfaz de Usuario</h3>
                 <h5>Inventario, Mapa y Ajustes</h5>
                 <p>
-
+                    - Para entrar a estos apartados tendremos que presionar la tecla E y para movernos por las tres estancias tendríamos que usar las teclas A y D.
                 </p>
-
+                <img src="/IMG/Mapa.png">
                 <h5>Tienda</h5>
                 <p>
-
+                    - Para entrar a la tienda interactuamos como con un NPC normal y para movernos dentro usaremos la W y S para cambiar entre Comprar, Vender o Salir y
+                     seleccionaremos una con la tecla F.
                 </p>
+                <img src="/IMG/Tienda.png">
+                <p>
+                    - Y cuando estemos dentro de Comprar o Vender nos moveremos entre las opciones con las teclas A y D, luego compraremos o venderemos con la tecla F y 
+                    para salir con la tecla ESC.
+                </p>
+                <img src="/IMG/Menu_Compra.png">
+
 
                 <h5>Granja</h5>
                 <p>
-
+                    - Para interactuar con nuestra granja y plantar vegetales y frutas, tendremos que situarnos en el área amarillenta del mapa y con el Clic Izquierdo del
+                    ratón nos dejará plantar en los slots que se sitúen a una casilla nuestra, si es más de una no nos dejará. 
+                    Pd: Tendrás que conseguir semillas antes de poder plantar.
+                    
                 </p>
+                <img src="/IMG/Plantar.png">
+                <br><br><br><br><br><br>
+
+
+                <h1 id="Contenido">Contenido Descargable</h1>
             </section>
+            
         </div>
 
         
