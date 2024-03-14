@@ -89,3 +89,50 @@ section {
 #primero {
     margin-top: 0;
 }
+
+
+/* Vista de Tablet */
+@media only screen and (min-width: 768px) {
+    header img {
+        width: 300px;
+        div img {
+            width: 90px;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            transition: 0.1s;
+        }
+    }
+
+    #aside{
+        width: 400px;
+       }
+
+    #contenedor {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+}
+
+/* Vista de Pantallas más grandes */
+@media only screen and (min-width: 1024px) {
+    header img {
+        width: 400px;
+        div img {
+            width: 100px;
+        }
+    }
+
+   #GranDiv {
+    text-align: center;
+    aside{ 
+    width: 600px;
+    font-size: 25px;
+    }
+   }
+
+    #contenedor {
+        width: 60vw;
+        margin-left: 20vw;
+    }
+}
+
