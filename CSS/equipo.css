@@ -11,6 +11,11 @@
     font-weight: bold;
 }
 
+.enlace_señalado2 {
+    color: rgb(146, 146, 146);
+    font-style: italic;
+}
+
 #primero img {
     margin-top: 4vw;
     margin-bottom: 4vw;

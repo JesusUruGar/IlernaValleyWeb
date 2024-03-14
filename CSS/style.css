@@ -57,6 +57,17 @@ header{
     }
 }
 
+footer {
+    font-size: 10px;
+    padding: 0.5vw;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
 aside {
     position: absolute;
     margin-top: 11vw;
@@ -74,8 +85,8 @@ aside {
 #contenedor {
     position: absolute;
     margin-top: 18vw;
-    width: 83vw;
-    margin-left: 3vw;
+    width: 82%;
+    margin-left: 5vw;
     background-color: rgba(255,255,255,0.6);
     border-radius: 1vw;
     padding: 4vw;
@@ -84,55 +95,55 @@ aside {
 
 section {
     margin-top: 10vw;
+    
+}
+
+p {
+    font-size: 3.3vw;
 }
 
 #primero {
     margin-top: 0;
 }
 
-
 /* Vista de Tablet */
 @media only screen and (min-width: 768px) {
-    header img {
-        width: 300px;
-        div img {
-            width: 90px;
-            margin-left: 1vw;
-            margin-right: 1vw;
-            transition: 0.1s;
-        }
+   
+    aside a {
+        font-size: 2vw;
     }
-
-    #aside{
-        width: 400px;
-       }
 
     #contenedor {
-        width: 70vw;
-        margin-left: 15vw;
+        margin-top: 17vw;
     }
+
+    p, a{
+        font-size: 1.5vw;
+    }
+    
+    h1 {
+        font-size: 3vw;
+    }
+
 }
 
 /* Vista de Pantallas más grandes */
 @media only screen and (min-width: 1024px) {
+  
     header img {
-        width: 400px;
-        div img {
-            width: 100px;
+        width: 30vw;
+    }
+
+    aside {
+        margin-top: 9vw;
+        a {
+            font-size: 1.6vw;
         }
     }
 
-   #GranDiv {
-    text-align: center;
-    aside{ 
-    width: 600px;
-    font-size: 25px;
-    }
-   }
-
     #contenedor {
-        width: 60vw;
-        margin-left: 20vw;
+        margin-top: 15vw;
     }
+
 }
 

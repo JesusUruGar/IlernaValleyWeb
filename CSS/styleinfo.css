@@ -1,7 +1,14 @@
 #contenedor {
-    width: 80%;
-    margin-left: 6.5%;
+    margin-top: 15vw;
+    width: 80vw;
+    margin-left: 0px;
 }
+
+#centrar {
+    display: flex;
+    justify-content: center;
+}
+
 section {
     padding-bottom: 7vw;
 }
@@ -9,6 +16,11 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+#Formulario {
+    width: 100;
+}
+
 label {
     display: block;
     font-weight: bold;
@@ -21,27 +33,56 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 2vw;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    resize: none;
 }
 input[type="submit"] {
     background-color: #757575;
     color: white;
     padding: 1.5vw 4vw;
     border: none;
-    border-radius: 4px;
+    border-radius: 1vw;
     cursor: pointer;
     width: 100%;
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 input[type="submit"]:hover {
     background-color: #383838;
 }
 
 #ImagenPueblo{
-    margin-top: 13vw;
-    width: 80vw;
+    margin-top: 10vw;
+    width: 100%;
     text-align: center;
+    border-radius: 1vw;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #contenedor {
+        width: 60vw;
+    }
+
+    label , input[type="submit"]{
+        font-size: 2vw;
+    }
+
+    #ImagenPueblo{
+        margin-top: 10vw;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #contenedor {
+        margin-top: 12vw;
+    }
+    label, input[type="submit"] {
+        font-size: 1.5vw;
+    }
+
 }
