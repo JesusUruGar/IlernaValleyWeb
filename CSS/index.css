@@ -1,0 +1,57 @@
+.negrita {
+    font-weight: bold;
+}
+
+.carrusel {
+    margin: 0;
+    padding: 0;
+    margin-top: 18vw;
+    position: absolute;
+    width: 80vw;
+    overflow: hidden;
+    margin-left: 10vw;
+    height: 32vw;
+    border: solid 0.5vw;
+    background-color: black;
+}
+
+.carrusel ul {
+    margin: 0;
+    width: 300vw;
+    display: flex;
+    padding: 0;
+    animation: slide 20s infinite ease-in-out;
+}
+
+.carrusel li {
+    padding: 0;
+    width: 100vw;
+    list-style: none;
+}
+
+.carrusel li img {
+    width: 80vw;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    33% {margin-left: 0%;}
+
+    37% {margin-left: -100vw;}
+    66% {margin-left: -100vw;}
+
+    71% {margin-left: -200vw;}
+    95% {margin-left: -200vw;}
+}
+
+#contenedor2 {
+    position: absolute;
+    margin-top: 55vw;
+    width: 86vw;
+    margin-left: 3vw;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1vw;
+    padding: 4vw;
+    text-align: justify;
+}
+
