@@ -22,3 +22,37 @@ aside {
     width: 50vw;
     margin-left: 25vw;
 }
+
+
+p, a{
+    font-size: 3vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "c1 c2";
+        align-items: start;
+        gap: 5vw;
+    }
+
+    #Recursos {
+        margin-top: 0;
+    }
+
+    p, a{
+        font-size: 1.5vw;
+    }
+    
+    h1 {
+        font-size: 3vw;
+    }
+
+}
